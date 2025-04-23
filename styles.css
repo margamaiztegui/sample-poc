@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.center-container {
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+img {
+    width: 145px;
+    height: 145px;
+}
+
+.login-row {
+    width: 300px;
+}
+
+.login-btn, .register-row {
+    text-align: center;
+}
+
+
+@media(max-width: 650px) {
+    .login-content {
+        flex-direction: column;
+    }
+}
